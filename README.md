@@ -167,27 +167,14 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}
-```
-
-### Environment Variables
-
-Create a `.env` file in the project root:
-
-```
-DEBUG=True
-SECRET_KEY=your-secret-key-here
-ALLOWED_HOSTS=localhost,127.0.0.1
-```
-
-Then update `settings.py` to load from `.env` (requires `python-decouple`).
+}.
 
 ## Dependencies
 
 Core dependencies (install with `pip install -r requirements.txt`):
 - Django
 - djangorestframework
-- python-decouple (optional, for environment variables)
+
 
 ## Contributing
 
